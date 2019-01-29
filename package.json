@@ -76,7 +76,8 @@
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "3.6.3"
   },
-  "devDependency": {
+  "devDependencies": {
+    "replace-in-file": "^3.4.3",
     "electron": "^4.0.1",
     "electron-packager": "^13.0.1"
   },
@@ -142,8 +143,5 @@
       "jsx",
       "node"
     ]
-  },
-  "devDependencies": {
-    "replace-in-file": "^3.4.3"
   }
 }

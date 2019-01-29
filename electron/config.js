@@ -1,6 +1,6 @@
 module.exports = {
-  width: 1200,
-  height: 900,
+  width: 1000,
+  height: 680,
   openDevTools: false,
   home: '',
 };

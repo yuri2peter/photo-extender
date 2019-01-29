@@ -7,7 +7,7 @@ const config = require('../electron/config');
   const { home } = await server();
   app.on('ready', function createWindow () {
     Menu.setApplicationMenu(null);
-    mainWindow = new BrowserWindow({ width: 1200, height: 900 });
+    mainWindow = new BrowserWindow({ width: config.width, height: config.height });
     mainWindow.loadURL(config.home || home);
     if (config.openDevTools) {
       // Open the DevTools.
