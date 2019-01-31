@@ -3,4 +3,4 @@
 
 ### Download
 
-[win32](./build/photo-extender-win32-x64.zip)
+[win32](./build/photo-extender.zip)
